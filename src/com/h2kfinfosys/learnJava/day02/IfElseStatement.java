@@ -20,10 +20,10 @@ public class IfElseStatement {
 		
 		if (first > second) {
 			System.out.println("First Variable is Greater " + first);
-		}else if(second > first) {
-				System.out.println("Second variable is Greater " + second);
+		}else if (second > first) {
+			System.out.println("Second Variable is Greater " + second);
 		}else {
-				System.out.println("Numbers are equal");
+			System.out.println("They are equal");
 		}
 		System.out.println("Out of IF ELSE");
 	}

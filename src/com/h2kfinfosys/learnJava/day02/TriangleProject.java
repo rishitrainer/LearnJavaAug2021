@@ -15,7 +15,13 @@ public class TriangleProject {
 		 */
 		int a = 10;
 		int b = 6;
-		int c = 1;
+		int c = 5;
+		
+		boolean result1 = (a + b) > c;
+		boolean result2 = (a + c) > b;
+		boolean result3 = (b + c) > a;
+		
+		System.out.println("Triangle is Possible ? " + (result1 && result2 && result3));
 		
 		/*
 		 * if((a+b) > c){ if((a + c) > b) { if((b + c) > a) {

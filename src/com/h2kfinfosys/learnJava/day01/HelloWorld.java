@@ -17,10 +17,10 @@ public class HelloWorld {
 	Byte byteWrapper = 127;
 	short shortData = 9999;
 	int intData = 999999999;
-	long longData = 99999999999999L;
+	long longData = 99999999999999l;
 	
 	// decimal 
-	float floatData = 99.14f;
+	float floatData = 99.14493598435f;
 	double doubleData = 99.99d;
 	
 	// boolean

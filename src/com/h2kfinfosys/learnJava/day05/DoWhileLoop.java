@@ -1,24 +1,25 @@
-package com.h2kfinfosys.learnJava.day04;
+package com.h2kfinfosys.learnJava.day05;
 
-public class WhileLoop {
+public class DoWhileLoop {
 
-	// Add 1 to 10
-	
 	public static void main(String[] args) {
 		/*
-		 * while condition{
-		 * 		block of code executed when condition is true
+		 *do {
+		 * 		block of code executed regardless condition is true or not
 		 * 		condition modifier
-		 * }
+		 * }while condition
 		 */
+		
 		int counter = 11;
 		int total = 0;
-		while (counter <= 10) {
+		do {
 			System.out.println("Counter Value " + counter);
 			total = total + counter;
 			counter++; // increase value by 1
-		}
+		}while (counter <= 10);
 		System.out.println("Total " + total);
+		
+
 	}
 
 }
